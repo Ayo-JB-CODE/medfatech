@@ -342,7 +342,7 @@ header .btn {
 }
 
 .section-4 {
-    background-image: url(/image/1.jpg);
+    background-image: url(/image/roof6.jpg);
     background-size: cover;
     object-fit: cover;
     background-attachment: fixed;
@@ -526,7 +526,7 @@ header .btn {
     max-width: 85%;
     height: 300px;
     margin: 0 auto;
-    background-image: url(/image/2.jpeg);
+    background-image: url(/image/roof5.jpg);
     background-size: contain;
     background-position: center;
 }
@@ -555,7 +555,7 @@ header .btn {
     padding: 30px 10px;
     text-align: center;
     line-height: 1.5rem;
-    background-image: url(/image/3.jpg);
+    background-image: url(/image/founder2.jpeg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
