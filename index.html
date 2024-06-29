@@ -9,11 +9,12 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="stylesheet" type='text/css'
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <header>
-        <a href="#" class="brand"><img src="/image/logo.png" alt="Logo"></a>
+        <a href="#" class="brand"><img src="image/logo.png" alt="Logo"></a>
         <div class="menu">
             <div class="btn">
                 <i class="fas fa-times close-btn"></i>
@@ -265,7 +266,7 @@
         </div>
         <div class="footer-center">
             <div>
-                <span><ion-icon name="location"></ion-icon></span>
+                <span><ion-icon class="ion-icon" name="location"></ion-icon></span>
                 <p><span>Aladejare street Dalemo Sango</span>Ogun State.</p>
             </div>
             <div>
@@ -294,8 +295,11 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="app.js" defer></script>
-
-    <script>!function () { var e, t, n, a; window.MyAliceWebChat || ((t = document.createElement("div")).id = "myAliceWebChat", (n = document.createElement("script")).type = "text/javascript", n.async = !0, n.src = "https://widget.myalice.ai/index.js", (a = (e = document.body.getElementsByTagName("script"))[e.length - 1]).parentNode.insertBefore(n, a), a.parentNode.insertBefore(t, a), n.addEventListener("load", (function () { MyAliceWebChat.init({ selector: "myAliceWebChat", number: "23408066679096", message: "Hi, How may we assist you?", color: "#25D366", channel: "wa", boxShadow: "medium", text: "Message Us", theme: "light", position: "right", mb: "20px", mx: "20px", radius: "20px" }) }))) }();</script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script>
+        !function () { var e, t, n, a; window.MyAliceWebChat || ((t = document.createElement("div")).id = "myAliceWebChat", (n = document.createElement("script")).type = "text/javascript", n.async = !0, n.src = "https://widget.myalice.ai/index.js", (a = (e = document.body.getElementsByTagName("script"))[e.length - 1]).parentNode.insertBefore(n, a), a.parentNode.insertBefore(t, a), n.addEventListener("load", (function () { MyAliceWebChat.init({ selector: "myAliceWebChat", number: "23408066679096", message: "Hi, How may we assist you?", color: "#25D366", channel: "wa", boxShadow: "medium", text: "Message Us", theme: "light", position: "right", mb: "20px", mx: "20px", radius: "20px" }) }))) }();
+        AOS.init();
+    </script>
 </body>
 
 </html>

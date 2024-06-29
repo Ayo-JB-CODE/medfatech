@@ -68,3 +68,18 @@ let repeat = function (activeClass) {
     repeater();
 }
 repeat();
+
+function emailSend() {
+
+    Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "ayotunde8@gmail.com",
+        Password: "0C7678E536C149898A189594AA1056252AE4",
+        To: 'jubril.babatunde.international@gmail.com',
+        From: "ayotunde8@gmail.com",
+        Subject: "This is the subject",
+        Body: "And this is the body"
+    }).then(
+        message => alert(message)
+    );
+}

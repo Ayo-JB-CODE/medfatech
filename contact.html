@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <a href="#" class="brand"><img src="/image/logo.png" alt="Logo"></a>
+        <a href="#" class="brand"><img src="image/logo.png" alt="Logo"></a>
         <div class="menu">
             <div class="btn">
                 <i class="fas fa-times close-btn"></i>
@@ -36,7 +36,7 @@
                 <!-- Form -->
                 <div class="contact form">
                     <h3>Send a message</h3>
-                    <form>
+                    <form onsubmit="emailSend(); reset(); return false;">
                         <div class="formBox">
                             <div class="row50">
                                 <div class="inputBox">
@@ -109,13 +109,13 @@
         <div class="footer-left">
             <h3>Medfa<span>tech</span></h3>
             <p class="footer-links">
-                <a href="#">Home</a>
+                <a href="index.html">Home</a>
                 |
                 <a href="about.html">About</a>
                 |
                 <a href="service.html">Service</a>
                 |
-                <a href="contact.html">Contact</a>
+                <a href="#">Contact</a>
             </p>
             <p class="footer-company-name">
                 Copyright &copy; 2024 <strong>Medfatech</strong> All rights reserved
@@ -152,6 +152,7 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="app.js" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>!function () { var e, t, n, a; window.MyAliceWebChat || ((t = document.createElement("div")).id = "myAliceWebChat", (n = document.createElement("script")).type = "text/javascript", n.async = !0, n.src = "https://widget.myalice.ai/index.js", (a = (e = document.body.getElementsByTagName("script"))[e.length - 1]).parentNode.insertBefore(n, a), a.parentNode.insertBefore(t, a), n.addEventListener("load", (function () { MyAliceWebChat.init({ selector: "myAliceWebChat", number: "23408066679096", message: "Hi, How may we assist you?", color: "#25D366", channel: "wa", boxShadow: "medium", text: "Message Us", theme: "light", position: "right", mb: "20px", mx: "20px", radius: "20px" }) }))) }();</script>
 </body>
 

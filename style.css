@@ -218,7 +218,7 @@ header .btn {
     font-size: 1rem;
     padding: 15px;
     border: 0;
-    margin: 5px;
+    margin-top: 10px;
     border-radius: 5px;
 }
 
@@ -345,7 +345,7 @@ header .btn {
 }
 
 .section-4 {
-    background-image: url(/image/1.jpg);
+    background-image: url(image/1.jpg);
     background-size: cover;
     object-fit: cover;
     background-attachment: fixed;
@@ -529,7 +529,7 @@ header .btn {
     max-width: 85%;
     height: 300px;
     margin: 0 auto;
-    background-image: url(/image/2.jpeg);
+    background-image: url(image/2.jpeg);
     background-size: contain;
     background-position: center;
 }
@@ -558,7 +558,7 @@ header .btn {
     padding: 30px 10px;
     text-align: center;
     line-height: 1.5rem;
-    background-image: url(/image/3.jpg);
+    background-image: url(image/3.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -587,6 +587,11 @@ header .btn {
     transform: scale(1.1);
 }
 
+.call-request a {
+    color: white;
+    text-decoration: none;
+}
+
 .call-request button {
     padding: 10px 25px;
     font-size: 16px;
@@ -596,6 +601,7 @@ header .btn {
     border: none;
     cursor: pointer;
     transition: all 1s;
+    text-decoration: none;
 }
 
 .call-request button:hover {
@@ -1045,17 +1051,9 @@ header .btn {
     width: 35%;
 }
 
-.footer-distributed .footer-center i {
-    background-color: #33383b;
+.footer-distributed .footer-center div span ion-icon {
     color: #fff;
-    font-size: 17px;
-    height: 25px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 3px;
-    margin: 10px 15px;
-    vertical-align: middle;
-    padding: 10px;
+    font-size: 20px;
 }
 
 .footer-distributed .footer-center p {
