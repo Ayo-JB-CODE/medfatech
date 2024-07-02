@@ -1675,6 +1675,31 @@ header .btn {
         height: 350px;
     }
 
+    .project h2 {
+        font-size: 25px;
+    }
+
+    .project hr {
+        width: 200px;
+        border-top: 1.5px solid #2696E9;
+    }
+
+    .projects {
+        width: 100%;
+        display: grid;
+        padding: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .past-projects h3 {
+        font-size: 16px;
+    }
+
+    .display-cover h4 {
+        font-size: 20px;
+    }
+
     /* CONTACT RESPONSIVENESS */
     .contact-container {
         background: #03a9f5;
