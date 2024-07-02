@@ -1342,7 +1342,11 @@ header .btn {
         margin: 8px;
     }
 
-    .img-slider .slide img {
+    .img-bckgd1,
+    .img-bckgd2,
+    .img-bckgd3,
+    .img-bckgd4,
+    .img-bckgd5 {
         height: 375px;
     }
 
