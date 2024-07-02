@@ -117,11 +117,61 @@ header .btn {
     transition-property: clip-path;
 }
 
-.img-slider .slide img {
+.img-bckgd1 {
+    z-index: 1;
+    width: 100%;
+    height: 400px;
+    background-image: url("image/2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.img-bckgd2 {
+    z-index: 1;
+    width: 100%;
+    height: 400px;
+    background-image: url("image/service1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-bckgd3 {
+    z-index: 1;
+    width: 100%;
+    height: 400px;
+    background-image: url("image/service2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-bckgd4 {
+    z-index: 1;
+    width: 100%;
+    height: 400px;
+    background-image: url("image/service11.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-bckgd5 {
+    z-index: 1;
+    width: 100%;
+    height: 400px;
+    background-image: url("image/service5.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+/* .img-slider .slide img {
     z-index: 1;
     width: 100%;
     border-radius: 5px;
-}
+} */
 
 .img-slider .slide .info {
     position: absolute;
@@ -542,6 +592,10 @@ header .btn {
     gap: 2rem;
 }
 
+.intro-history {
+    width: 100%;
+}
+
 .intro-history h2 {
     font-size: 1.8rem;
     margin-bottom: 30px;
@@ -555,6 +609,9 @@ header .btn {
 }
 
 .call-request {
+    width: 40%;
+    height: 300px;
+    margin: auto 0;
     padding: 30px 10px;
     text-align: center;
     line-height: 1.5rem;
@@ -600,7 +657,7 @@ header .btn {
     border-radius: 12px;
     border: none;
     cursor: pointer;
-    transition: all 1s;
+    transition: all 0.5s;
     text-decoration: none;
 }
 
@@ -801,6 +858,73 @@ header .btn {
 .descp-right img {
     width: 500px;
     height: 400px;
+}
+
+.project {
+    width: 100%;
+}
+
+.project h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Raleway' sans-serif;
+    text-align: center;
+    color: #e0ac1c;
+    padding-bottom: 5px;
+}
+
+.project hr {
+    width: 300px;
+    margin: 0 auto;
+    border-top: 2px solid #2696E9;
+}
+
+.projects {
+    width: 100%;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.past-projects {
+    position: relative;
+}
+
+.past-projects h3 {
+    text-align: center;
+    color: #2696E9;
+}
+
+.past-projects img {
+    width: 100%;
+    height: 350px;
+}
+
+.display-cover {
+    display: none;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 100px 100px;
+    transition: 1.5s;
+    transition-property: right;
+}
+
+.display-cover h4 {
+    font-size: 30px;
+    color: #0074ba;
+    text-align: center;
+    font-family: 'cookie', cursive;
+}
+
+.past-projects:hover {
+
+    .display-cover {
+        display: block;
+    }
 }
 
 /* CONTACT */
@@ -1490,6 +1614,10 @@ header .btn {
         font-size: 1.5rem;
         text-align: center;
         font-weight: 600;
+    }
+
+    .call-request {
+        width: 100%;
     }
 
     .vision-mision {
