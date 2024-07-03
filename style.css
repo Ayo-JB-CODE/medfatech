@@ -385,13 +385,20 @@ header .btn {
     border-radius: 15px;
     cursor: pointer;
     text-transform: uppercase;
+    color: #0e3959;
+    font-weight: 600;
+    transition-property: right;
+    transition: all 0.5s;
+}
+
+.section-3 .aboutus-words .aboutus-btn a {
+    text-decoration: none;
 }
 
 .section-3 .aboutus-words .aboutus-btn:hover {
+    color: #fff;
     background: #18b7ff;
-    color: white;
-    font-weight: 500;
-    transition: all 0.5s ease-in-out;
+    font-weight: 600;
 }
 
 .section-4 {
@@ -1601,7 +1608,7 @@ header .btn {
     }
 
     .intro-word h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: 40px 10px 20px 10px;
     }
 
